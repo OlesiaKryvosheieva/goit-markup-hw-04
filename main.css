@@ -368,9 +368,6 @@ h3 {
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid var(--icon-color);
-
-  border-radius: 4px;
 }
 
 .clients-link {
@@ -379,6 +376,9 @@ h3 {
   height: 92px;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--icon-color);
+
+  border-radius: 4px;
 }
 
 .clients-item:not(:last-child) {
@@ -486,11 +486,12 @@ h3 {
 .footer-item .link {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   background-color: rgba(255, 255, 255, 0.1);
 
   border-radius: 50%;
-  padding: 12px 12px;
+
   margin-right: 10px;
 
   width: 44px;
@@ -503,6 +504,7 @@ h3 {
 }
 
 .footer-icon {
+  display: block;
   fill: #ffffff;
 }
 
